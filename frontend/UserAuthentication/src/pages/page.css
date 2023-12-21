@@ -1,0 +1,26 @@
+form {
+  background: aliceblue;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  padding: 50px;
+}
+input:nth-child(3) {
+  width: 100px;
+  margin: auto;
+  font-size: 18px;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+input:nth-child(1),
+input:nth-child(2) {
+  padding: 7px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+}
